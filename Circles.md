@@ -136,7 +136,14 @@ Validators are blockchain organizations that can create and receive trust relati
 
 Because membership business logic is arbitrary, any type of association can be fronted by a validator. Users might be validated as citizens of a city, tenants of an apartment building, or practitioners of a certain trade. Being validated by popular validators will dramatically increase the reach of a users personal currency. Likewise, users who trust popular validators make it easy for them to receive currency they know will be spendable elsewhere.
 
-*Needs Example*
+```
+Bob and Alice make a Validator called TigersFans
+Carol signs up for Circles, creating CarolCoins
+10 minutes pass and Carol has 10 CarolCoins
+Carol asks to be trusted by the Validator and proves that she is a true Tigers Fan. Bob and Alice vote to let her join
+Dave trusts the TigerFans Validator
+Carol can now spend her CarolCoins with Dave
+```
 
 
 ## Groups
@@ -184,5 +191,7 @@ Dave now has 5 CarolCoins that he can’t spend with people who trust the Tigers
 As we can see, there is a distinct tradeoff between Groups and Validators. In the Group case, all holders of the group currency surrender control of the value of their coins to a central administrator in exchange for true fungibility and reduced risk of any one member being removed. In the Validator case, unique currencies make it harder for an economy to be captured by one large currency with a network effect, but users are at a greater risk of being stuck with the currency of a member who the validator no longer trusts. One of the most active areas of Circles research is on the nature of this tradeoff and what options exist to create a useful and fair UBI money system.
 
 # Inflation
+
+In order to disincentivize hoarding and to encourage economic activity, the system will introduce an annual inflation schedule. All personal currencies will issue progressively larger amounts of tokens per second, and new users will always start issuing at a rate that is consistent with all other personal currencies. The inflation schedule is meant to work in much the same way that inflation works in the traditional economy, but the implementation specifics are still an open topic for research.
 
 # Conclusion
