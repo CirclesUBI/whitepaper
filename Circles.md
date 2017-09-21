@@ -1,8 +1,15 @@
-# Abstract
+# Circles Money System Overview
+
+*A decentralised Universal Basic Income platform based on personal currencies*
+
+**http://joincircles.net**
+
+
+## Abstract
 
 We propose a new money system called Circles that is based on individualized cryptocurrencies and a social graph of trust between these currencies. This money system will be for the purposes of distributing and maintaining a globally accessible Universal Basic Income. When new users join Circles, a new personal cryptocurrency is created for them on a smart contract-enabled blockchain. This currency is then regularly minted and added to their account. Users have the ability to trust the personal currencies of other users, which requires them to treat this personal currency as identical to any other Circles currencies that they hold. As the social graph becomes more interconnected, these personal currencies converge on one single global monetary system.
 
-# Introduction
+## Introduction
 
 Universal Basic Income is one of the most cross-culturaly appealing political movements of the modern era. It has attracted the support of thinkers from every background including Milton Friedman, Friedrich Hayek, Elon Musk, Martin Luther King Jr, Stephen Hawking, and Noam Chomsky. It is seen as a utopian project that could finally unlock the creative potential of all people, the culmination of centuries-old humanist ideals.
 
@@ -13,7 +20,7 @@ The introduction of global blockchain networks changes the conversation about UB
 Circles proposes to be the blockchain's native UBI money system. It has its own built-in resistance to Sybil attacks (i.e. fake accounts) and anyone can join the network at any time without asking permission from anyone. It has been designed with the expectation that it will be bootstrapped in a completely organic and grassroots fashion, but is extensible to allow any arbitrary governance systems to operate on top of the base protocol. Circles is an entirely new way of looking at the nature of money and what value exchange means in a post-UBI future. 
 
 
-# Minting Currency
+## Minting Currency
 
 Circles is a money system that is made up of individual currencies. These currencies work together to create an economy that can support Universal Basic Income.
 
@@ -40,7 +47,7 @@ Alice has 0 PersonalCoins and Bob has 5 AliceCoin
 Five minutes later Alice has 5 AliceCoin while Bob has 5 AliceCoin and 5 BobCoin
 ```
 
-# Trusting Currency
+## Trusting Currency
 
 In order to create useful money, users trust each other’s currencies. Trust is what facilitates exchange in the system. When a user trusts a currency, they tell the system that it is equivalent to any other Circles currencies that they already have. This means that anyone with this trusted currency can automatically trade it for one of your Circles currencies at a one-to-one exchange rate.
 
@@ -55,7 +62,7 @@ Another way of thinking about trust is that it is the user telling the system th
 
 Because trust is a way to protect from counterfeit currencies, it is a serious responsibility on the part of the user. Users will have to rely heavily on mutual connections when making direct peer-to-peer trust relationships, and new users with no trust connections will have to get their closest loved ones to be their initial connections. However in order to increase usability, some exceptions to these high requirements are covered in the Groups & Validators section below.
 
-## Transitive Exchange
+### Transitive Exchange
 
 Trusting different currencies creates a useful form of money because of the transitive nature of social networks. Money is useful when it allows complete strangers to efficiently conduct their business. When one stranger wants to send money to another in Circles, they search for a transitive chain of trusted currencies between each other. The payer then trades along this chain of trusted currencies, one after the other, until they have one that the recipient accepts.
 
@@ -86,7 +93,7 @@ Dave gives 5 AliceCoin to Bob
 
 With this system, the connectedness of the social network serves as a direct measure of users’ ability to transact with each other. A familiar way of thinking about this is the famous six degrees of separation phenomenon that suggests everyone on earth is connected to everyone else by a chain of six people. Circles uses these chains to transact through the system. If a user is well-integrated into the network, with many connections to other well-integrated users, they will find it easier to send and receive personal currency.
 
-## Limits to Trust
+### Limits to Trust
 
 Because personal currencies are only able to travel through their networks of trust, the value of a specific personal currency is a measure of how many other accounts trust it. This means that users who are new to the system and don’t have many trusted relationships have a less valuable currency than someone who is well-established in the network. It also means that the currency of new users gets more valuable over time as they create more trust relationships.
 
@@ -118,7 +125,7 @@ Alice raises her trust limit on BobCoin to 100 per month
 
 Trust limits reduce the risk of trusting new accounts to the system, making it easier for them to build trust relationships.
 
-## Defending Against Fake Accounts 
+### Defending Against Fake Accounts 
 
 As we’ve shown, fake accounts are the primary consideration when designing protections into the system. Since money can be spent indirectly through transitive connections, let’s show how Circles defends against fake accounts that are connected to your friends:
 
@@ -134,12 +141,12 @@ AliceFake gives 5 AliceCoin to Bob
 
 This example demonstrates that Bob can only ever receive money that he trusts, and Alice can only ever spend money that other users trust in turn. Even if Alice makes 100 fake accounts and has them all trust each other, she will never be able to spend more than the amount of AliceCoins she has, since that’s the only account that other users will trust. This is why it is crucial that users take direct peer-to-peer trust relationships seriously. 
 
-# Validators & Groups
+## Validators & Groups
 
 So far the Circles money system is both self-sovereign and resilient to fake accounts, but it is not very user-friendly. New users are given currency that is worthless by default, and they have to take steps to increase its value. This problem is alleviated by the addition of Validators and Groups, which allow users to quickly add value to their personal currency.
 
 
-## Validators
+### Validators
 
 Validators are blockchain organizations that can create and receive trust relationships just like users can. When a user trusts a validator, they automatically trust the currency of every user that the validator trusts. This means all the users that the validator trusts can transitively use the currency of anyone who trusts the validator. When a validator trusts a new user, they add them as a beneficiary of the trust relationships that the validator has already received. Users achieve this by delegating the work required to validate real accounts to the validator’s administrators. This means that admins have an even higher requirement to ensure that all accounts trusted by the validator are the primary accounts of real people. If a validator’s member set is small, it might mean that the main admin has to personally meet everyone and verify they are a member of the community. If it is large, it might require submitting government issued identification or even biometric data.
 
@@ -155,7 +162,7 @@ Carol can now spend her CarolCoins with Dave
 ```
 
 
-## Groups
+### Groups
 
 In addition to validators, users can join Groups. Groups also add members according to arbitrary business logic, but they add in a new feature in the form of Group Currency. When a user joins a group, their personal currency gains the ability to be one-way converted to a new, fungible currency attached to the group. Anyone can trust this group currency just like they do for personal currencies. This feature makes it easy for businesses and strangers to interact, as a user doesn’t need to think about the currency they are receiving if they trust the group already.
 
@@ -199,8 +206,8 @@ Dave now has 5 CarolCoins that he can’t spend with people who trust the Tigers
 
 As we can see, there is a distinct tradeoff between Groups and Validators. In the Group case, all holders of the group currency surrender control of the value of their coins to a central administrator in exchange for true fungibility and reduced risk of any one member being removed. In the Validator case, unique currencies make it harder for an economy to be captured by one large currency with a network effect, but users are at a greater risk of being stuck with the currency of a member who the validator no longer trusts. One of the most active areas of Circles research is on the nature of this tradeoff and what options exist to create a useful and fair UBI money system.
 
-# Inflation
+## Inflation
 
 In order to disincentivize hoarding and to encourage economic activity, the system will introduce an annual inflation schedule. All personal currencies will issue progressively larger amounts of tokens per second, and new users will always start issuing at a rate that is consistent with all other personal currencies. The inflation schedule is meant to work in much the same way that inflation works in the traditional economy, but the implementation specifics are still an open topic for research.
 
-# Conclusion
+## Conclusion
