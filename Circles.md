@@ -24,7 +24,7 @@ Circles proposes to be the blockchain's native UBI money system. It has its own 
 
 Circles is a money system that is made up of individual currencies. These currencies work together to create an economy that can support Universal Basic Income.
 
-When a new blockchain account joins Circles, the system creates and assigns them a unique currency. This is called a Personal Currency, and all personal currencies operate according to a shared set of rules. 
+When a new blockchain account joins Circles, the system creates and assigns them a unique currency via a smart contract. This is called a *Personal Currency*, and all personal currencies operate according to a shared set of rules. 
 
 Each personal currency continuously mints new coins and awards them to its associated person. This is the only way that new money is created in Circles and forms the basis of its UBI characteristics. All currencies mint new coins at the same rate, meaning that new money is distributed equally to all members of the system at all times.
 
@@ -46,6 +46,10 @@ Alice transfers her 5 AliceCoin to Bob
 Alice has 0 PersonalCoins and Bob has 5 AliceCoin
 Five minutes later Alice has 5 AliceCoin while Bob has 5 AliceCoin and 5 BobCoin
 ```
+
+### Inflation
+
+In order to disincentivize hoarding and to encourage economic activity, the system will introduce an annual inflation schedule. All personal currencies will issue progressively larger amounts of tokens per second, and new users will always start issuing at a rate that is consistent with all other personal currencies. The inflation schedule is meant to work in much the same way that inflation works in the traditional economy, but the implementation specifics are still an open topic for research.
 
 ## Trusting Currency
 
@@ -205,10 +209,6 @@ Dave now has 5 CarolCoins that he can’t spend with people who trust the Tigers
 ```
 
 As we can see, there is a distinct tradeoff between Groups and Validators. In the Group case, all holders of the group currency surrender control of the value of their coins to a central administrator in exchange for true fungibility and reduced risk of any one member being removed. In the Validator case, unique currencies make it harder for an economy to be captured by one large currency with a network effect, but users are at a greater risk of being stuck with the currency of a member who the validator no longer trusts. One of the most active areas of Circles research is on the nature of this tradeoff and what options exist to create a useful and fair UBI money system.
-
-## Inflation
-
-In order to disincentivize hoarding and to encourage economic activity, the system will introduce an annual inflation schedule. All personal currencies will issue progressively larger amounts of tokens per second, and new users will always start issuing at a rate that is consistent with all other personal currencies. The inflation schedule is meant to work in much the same way that inflation works in the traditional economy, but the implementation specifics are still an open topic for research.
 
 ## Conclusion
 
