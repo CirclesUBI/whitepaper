@@ -116,6 +116,8 @@ Bob gives 100 BobCoin to Alice and takes 100 AliceCoin from her
 Bob can now spend money with 25 people (and their friends, and friends of friends, etc) and Alice can only spend money with Bob
 ```
 
+![](https://i.imgur.com/W4Eb0lq.jpg)
+
 In the example above, Alice needs a way to acknowledge that BobCoin is real money, while limiting her exposure to it while Bob is still new. Circles achieves this with Trust Limits. When you create a trust relationship in Circles, you have the option to include the maximum amount you are willing to accept via automatic exchange per month. With trust limits, Alice is able to help Bob integrate into the system in a more controlled way:
 
 ```
