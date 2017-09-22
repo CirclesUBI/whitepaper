@@ -168,7 +168,7 @@ Dave trusts the TigerFans Validator
 Carol can now spend her CarolCoins with Dave
 ```
 
-![](https://i.imgur.com/WpgfXKO.jpg)
+![](https://i.imgur.com/64RCKcp.jpg)
 
 Because membership business logic is arbitrary, any type of association can be fronted by a validator. Users might be validated as citizens of a city, tenants of an apartment building, or practitioners of a certain trade. Being validated by popular validators will dramatically increase the reach of a users personal currency. Likewise, users who trust popular validators make it easy for them to receive currency they know will be spendable elsewhere.
 
