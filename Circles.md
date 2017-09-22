@@ -143,10 +143,10 @@ As we’ve shown, fake accounts are the primary consideration when designing pro
 Bob trusts AliceCoin
 Alice makes a fake account and trusts FakeCoin
 Alice has 10 AliceCoin
-AliceFake has 10 FakeCoin
-Alice wants to buy something worth 5 PersonalCoins from Bob using FakeCoin
-AliceFake gives 5 FakeCoin to Alice and takes 5 AliceCoin from her
-AliceFake gives 5 AliceCoin to Bob
+FakeAlice has 10 FakeCoin
+Alice wants to buy something worth 10 PersonalCoins from Bob using FakeCoin
+FakeAlice gives 10 FakeCoin to Alice and takes 5 AliceCoin from her
+FakeAlice gives 10 AliceCoin to Bob
 ```
 
 ![](https://i.imgur.com/FdfRnYz.jpg)
@@ -167,6 +167,8 @@ Carol asks to be trusted by the Validator and proves that she is a true Tigers F
 Dave trusts the TigerFans Validator
 Carol can now spend her CarolCoins with Dave
 ```
+
+![](https://i.imgur.com/WpgfXKO.jpg)
 
 Because membership business logic is arbitrary, any type of association can be fronted by a validator. Users might be validated as citizens of a city, tenants of an apartment building, or practitioners of a certain trade. Being validated by popular validators will dramatically increase the reach of a users personal currency. Likewise, users who trust popular validators make it easy for them to receive currency they know will be spendable elsewhere.
 
