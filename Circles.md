@@ -80,7 +80,7 @@ Carol gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Carol gives 5 AliceCoin to Bob 
 ```
 
-![](https://i.imgur.com/qBsfn97.jpg)
+![](https://i.imgur.com/7MhKoCt.jpg)
 
 The transaction can be extended to include multi-hop chains of trust as well: 
 
@@ -97,7 +97,7 @@ Dave gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Dave gives 5 AliceCoin to Bob
 ```
 
-![](https://i.imgur.com/EWy7ZWl.jpg)
+![](https://i.imgur.com/Kg8xOaG.jpg)
 
 With this system, the connectedness of the social network serves as a direct measure of users’ ability to transact with each other. A familiar way of thinking about this is the famous six degrees of separation phenomenon that suggests everyone on earth is connected to everyone else by a chain of six people. Circles uses these chains to transact through the system. If a user is well-integrated into the network, with many connections to other well-integrated users, they will find it easier to send and receive personal currency.
 
@@ -105,7 +105,7 @@ With this system, the connectedness of the social network serves as a direct mea
 
 Because personal currencies are only able to travel through their networks of trust, the value of a specific personal currency is a measure of how many other accounts trust it. This means that users who are new to the system and don’t have many trusted relationships have a less valuable currency than someone who is well-established in the network. It also means that the currency of new users gets more valuable over time as they create more trust relationships.
 
-Since the system is enforcing a one-to-one exchange rate, and new users’ personal currencies are less valuable than established users personal currencies, a potential problem emerges:
+Since the system internally enforces a one-to-one exchange rate, and new users’ personal currencies are less valuable than established users personal currencies, a potential problem emerges:
 
 ```
 25 people trust AliceCoin
