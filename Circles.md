@@ -62,13 +62,13 @@ Dave has 10 AliceCoin
 Dave gives 5 AliceCoin to Bob and takes 5 CarolCoin from him
 ```
 
-Another way of thinking about trust is that it is the user telling the system that they acknowledge specific currencies as “real money.” Since any blockchain account can join the system and start minting currency, a trivial attack is to create multiple accounts and register with each to get multiple basic incomes. The existence of trust relationships is how users protect themselves from fake accounts by specifying which ones they know for a fact represent an individual human’s primary account.
+Another way of thinking about trust is that it is the user telling the system that they acknowledge specific currencies as “real money.” Since any blockchain account can join the system and start minting currency, a trivial attack is to create multiple accounts and register with each to get multiple basic incomes. This is called a Sybil attack in computer security terms. The existence of trust relationships is how users protect themselves from fake accounts by specifying which ones they know for a fact represent an individual human’s primary account, forming a native Sybil resistance in the system.
 
 Because trust is a way to protect from counterfeit currencies, it is a serious responsibility on the part of the user. Users will have to rely heavily on mutual connections when making direct peer-to-peer trust relationships, and new users with no trust connections will have to get their closest loved ones to be their initial connections. However in order to increase usability, some exceptions to these high requirements are covered in the Groups & Validators section below.
 
 ### Transitive Exchange
 
-Trusting different currencies creates a useful form of money because of the transitive nature of social networks. Money is useful when it allows complete strangers to efficiently conduct their business. When one stranger wants to send money to another in Circles, they search for a transitive chain of trusted currencies between each other. The payer then trades along this chain of trusted currencies, one after the other, until they have one that the recipient accepts.
+Trusting different currencies creates a useful form of money because of the transitive nature of social networks. Money is useful when it allows complete strangers to efficiently conduct business. When one stranger wants to send money to another in Circles, they automatically search for a transitive chain of trusted currencies between each other. The payer then trades along this chain of trusted currencies, one after the other, until they have one that the recipient accepts.
 
 ```
 Bob trusts AliceCoin
@@ -79,6 +79,8 @@ Carol wants to pay Bob 5 PersonalCoins
 Carol gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Carol gives 5 AliceCoin to Bob 
 ```
+
+![](https://i.imgur.com/qBsfn97.jpg)
 
 The transaction can be extended to include multi-hop chains of trust as well: 
 
@@ -94,6 +96,8 @@ Dave gives 5 DaveCoin to Carol and takes 5 CarolCoin from her
 Dave gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Dave gives 5 AliceCoin to Bob
 ```
+
+![](https://i.imgur.com/EWy7ZWl.jpg)
 
 With this system, the connectedness of the social network serves as a direct measure of users’ ability to transact with each other. A familiar way of thinking about this is the famous six degrees of separation phenomenon that suggests everyone on earth is connected to everyone else by a chain of six people. Circles uses these chains to transact through the system. If a user is well-integrated into the network, with many connections to other well-integrated users, they will find it easier to send and receive personal currency.
 
