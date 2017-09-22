@@ -149,6 +149,8 @@ AliceFake gives 5 FakeCoin to Alice and takes 5 AliceCoin from her
 AliceFake gives 5 AliceCoin to Bob
 ```
 
+![](https://i.imgur.com/FdfRnYz.jpg)
+
 This example demonstrates that Bob can only ever receive money that he trusts, and Alice can only ever spend money that other users trust in turn. Even if Alice makes 100 fake accounts and has them all trust each other, she will never be able to spend more than the amount of AliceCoins she has, since that’s the only account that other users will trust. This is why it is crucial that users take direct peer-to-peer trust relationships seriously. 
 
 ## Validators
