@@ -113,7 +113,8 @@ Bob is new, so only Alice trusts BobCoin
 Bob has 100 BobCoin
 Alice has 100 AliceCoin
 Bob gives 100 BobCoin to Alice and takes 100 AliceCoin from her
-Bob can now spend money with 25 people (and their friends, and friends of friends, etc) and Alice can only spend money with Bob
+Bob can now spend money with 25 people (and their friends, and friends of friends, etc)
+Alice can now only spend money with Bob
 ```
 
 ![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_4.png)
