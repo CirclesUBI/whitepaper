@@ -173,6 +173,9 @@ Carol can now spend her CarolCoins with Dave
 
 Because membership business logic is arbitrary, any type of association can be fronted by a validator. Users might be validated as citizens of a city, tenants of an apartment building, or practitioners of a certain trade. Being validated by popular validators will dramatically increase the reach of a users personal currency. Likewise, users who trust popular validators make it easy for them to receive currency they know will be spendable elsewhere.
 
+## Complementary Currency
+
+Circles is not meant to become the world's dominant currency, cryptographic or otherwise. Rather, it is a complementary currency, working in harmony alongside other stores of value and mediums of exchange. In the future Circles could even serve as a foundational "hard currency" for a more flexible group currency built on top, since the supply of specific individual currencies is perfectly predictable and it is highly resilient due to its lack of reliance on a centralized identity provider. This group currency could function in the same way that validators work, with arbitrary business logic to determine group membership. The group could then accept the personal currencies of its members and return a fungible group currency at an exchange rate that meets the group's needs over time. This would allow Circles to act as a staging ground for many different experiments in consensus reality (and morality), while still providing individual users the freedom to revert back to personal currencies if any one group becomes corrupted or useless. The possibilities for new political forms are numerous, but the potential for layer 2 systems on top of the base protocol is by far the most speculative aspect of the project and remains a decidedly open question for further research. 
 
 ## Conclusion
 
