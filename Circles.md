@@ -165,8 +165,8 @@ Bob and Alice make a Validator called TigersFans
 Carol signs up for Circles, creating CarolCoins
 10 minutes pass and Carol has 10 CarolCoins
 Carol asks to be trusted by the Validator and proves that she is a true Tigers Fan. Bob and Alice vote to let her join
-Dave trusts the TigerFans Validator
-Carol can now spend her CarolCoins with Dave
+Eve trusts the TigerFans Validator
+Carol can now spend her CarolCoins with Eve
 ```
 
 ![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_5.png)
