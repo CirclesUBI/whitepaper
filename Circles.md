@@ -138,7 +138,7 @@ Trust limits reduce the risk of trusting new accounts to the system, making it e
 
 ### Defending Against Fake Accounts 
 
-As we’ve shown, fake accounts are the primary consideration when designing protections into the system. Since money can be spent indirectly through transitive connections, let’s show how Circles defends against fake accounts that are connected to your friends:
+As we’ve shown, fake accounts are a primary consideration when designing protections into the system. Since money can be spent indirectly through transitive connections, let’s show how Circles defends against fake accounts that are connected to your friends:
 
 ```
 Bob trusts AliceCoin
