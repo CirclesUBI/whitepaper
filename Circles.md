@@ -11,7 +11,7 @@ We propose a new money system called Circles that is based on individualized cry
 
 ## Introduction
 
-Universal Basic Income is one of the most cross-culturaly appealing political movements of the modern era. It has attracted the support of thinkers from every background including Milton Friedman, Friedrich Hayek, Elon Musk, Martin Luther King Jr, Stephen Hawking, and Noam Chomsky. It is seen as a utopian project that could finally unlock the creative potential of all people, the culmination of centuries-old humanist ideals.
+Universal Basic Income is one of the most cross-culturally appealing political movements of the modern era. It has attracted the support of thinkers from every background including Milton Friedman, Friedrich Hayek, Elon Musk, Martin Luther King Jr, Stephen Hawking, and Noam Chomsky. It is seen as a utopian project that could finally unlock the creative potential of all people, the culmination of centuries-old humanist ideals.
 
 The topic of UBI has exploded in popularity in recent years, as wealth inequality grows and inflation-adjusted wages fall all across the world. Until now, the conversation has primarily been viewed through the lens of public policy and bureaucratic action. Public support for the idea of UBI has never been higher, but plans for implementation are progressing slowly and without cooperation at the international scale. It seems that UBI systems have received a "too big to implement" label at the highest levels of government, similar to climate change action, making development and rollout unlikely to happen any time soon.
 
