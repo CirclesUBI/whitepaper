@@ -146,7 +146,7 @@ Alice makes a fake account and trusts FakeCoin
 Alice has 10 AliceCoin
 FakeAlice has 10 FakeCoin
 Alice wants to buy something worth 10 PersonalCoins from Bob using FakeCoin
-FakeAlice gives 10 FakeCoin to Alice and takes 5 AliceCoin from her
+FakeAlice gives 10 FakeCoin to Alice and takes 10 AliceCoin from her
 FakeAlice gives 10 AliceCoin to Bob
 ```
 
