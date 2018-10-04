@@ -2,7 +2,7 @@
 
 *A decentralised Universal Basic Income platform based on personal currencies*
 
-**http://joincircles.net**
+**https://joincircles.net**
 
 
 ## Abstract
