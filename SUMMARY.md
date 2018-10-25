@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Circles UBI overview](README.md)
+* [Circles' different spheres of operation](circles-different-spheres-of-operation.md)
+* [Untitled](untitled-1.md)
 
