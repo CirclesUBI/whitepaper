@@ -1,9 +1,9 @@
-# Circles Money System Overview
+Circles Whitepaper
+===
 
 *A decentralised Universal Basic Income platform based on personal currencies*
 
 **https://www.joincircles.net**
-
 
 ## Abstract
 
@@ -19,7 +19,6 @@ The introduction of global blockchain networks changes the conversation about UB
 
 Circles proposes to be the blockchain's native UBI money system. It has its own built-in resistance to Sybil attacks (i.e. fake accounts) and anyone can join the network at any time without asking permission from anyone. It has been designed with the expectation that it will be bootstrapped in a completely organic and grassroots fashion, but is extensible to allow any arbitrary governance systems to operate on top of the base protocol. Circles is an entirely new way of looking at the nature of money and what value exchange means in a post-UBI future. 
 
-
 ## Minting Currency
 
 Circles is a money system that is made up of individual currencies. These currencies work together to create an economy that can support Universal Basic Income.
@@ -27,7 +26,6 @@ Circles is a money system that is made up of individual currencies. These curren
 When a new blockchain account joins Circles, the system creates and assigns them a unique currency via a smart contract. This is called a *Personal Currency*, and all personal currencies operate according to a shared set of rules. 
 
 Each personal currency continuously mints new coins and awards them to its associated person. This is the only way that new money is created in Circles and forms the basis of its UBI characteristics. All currencies mint new coins at the same rate, meaning that new money is distributed equally to all members of the system at all times.
-
 
 ```
 Alice joins the system, creating AliceCoin
@@ -80,7 +78,7 @@ Carol gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Carol gives 5 AliceCoin to Bob 
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_1.png)
+![](https://raw.githubusercontent.com/CirclesUBI/docs/master/docs/assets/diagram_1.png)
 
 The transaction can be extended to include multi-hop chains of trust as well: 
 
@@ -97,7 +95,7 @@ Dave gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Dave gives 5 AliceCoin to Bob
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_3.png)
+![](https://raw.githubusercontent.com/CirclesUBI/docs/master/docs/assets/diagram_3.png)
 
 With this system, the connectedness of the social network serves as a direct measure of users’ ability to transact with each other. A familiar way of thinking about this is the famous six degrees of separation phenomenon that suggests everyone on earth is connected to everyone else by a chain of six people. Circles uses these chains to transact through the system. If a user is well-integrated into the network, with many connections to other well-integrated users, they will find it easier to send and receive personal currency.
 
@@ -117,7 +115,7 @@ Bob can now spend money with 25 people (and their friends, and friends of friend
 Alice can now only spend money with Bob
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_4.png)
+![](https://raw.githubusercontent.com/CirclesUBI/docs/master/docs/assets/diagram_4.png)
 
 In the example above, Alice needs a way to acknowledge that BobCoin is real money, while limiting her exposure to it while Bob is still new. Circles achieves this with Trust Limits. When you create a trust relationship in Circles, you have the option to include the maximum amount you are willing to accept via automatic exchange per month. With trust limits, Alice is able to help Bob integrate into the system in a more controlled way:
 
@@ -150,7 +148,7 @@ FakeAlice gives 10 FakeCoin to Alice and takes 5 AliceCoin from her
 FakeAlice gives 10 AliceCoin to Bob
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_2.png)
+![](https://raw.githubusercontent.com/CirclesUBI/docs/master/docs/assets/diagram_2.png)
 
 This example demonstrates that Bob can only ever receive money that he trusts, and Alice can only ever spend money that other users trust in turn. Even if Alice makes 100 fake accounts and has them all trust each other, she will never be able to spend more than the amount of AliceCoins she has, since that’s the only account that other users will trust. This is why it is crucial that users take direct peer-to-peer trust relationships seriously. 
 
@@ -169,7 +167,7 @@ Eve trusts the TigerFans Validator
 Carol can now spend her CarolCoins with Eve
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_5.png)
+![](https://raw.githubusercontent.com/CirclesUBI/docs/master/docs/assets/diagram_5.png)
 
 Because membership business logic is arbitrary, any type of association can be fronted by a validator. Users might be validated as citizens of a city, tenants of an apartment building, or practitioners of a certain trade. Being validated by popular validators will dramatically increase the reach of a users personal currency. Likewise, users who trust popular validators make it easy for them to receive currency they know will be spendable elsewhere.
 
