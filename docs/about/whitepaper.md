@@ -18,7 +18,6 @@ The introduction of global blockchain networks changes the conversation about UB
 
 Circles proposes to be the blockchain's native UBI money system. It has its own built-in resistance to Sybil attacks (i.e. fake accounts) and anyone can join the network at any time without asking permission from anyone. It has been designed with the expectation that it will be bootstrapped in a completely organic and grassroots fashion, but is extensible to allow any arbitrary governance systems to operate on top of the base protocol. Circles is an entirely new way of looking at the nature of money and what value exchange means in a post-UBI future.
 
-
 ## Minting Currency
 
 Circles is a money system that is made up of individual currencies. These currencies work together to form a unified “monetary fabric” that behaves like a Universal Basic Income.
@@ -26,7 +25,6 @@ Circles is a money system that is made up of individual currencies. These curren
 When a new blockchain account joins Circles, the system creates and assigns them a unique currency via a smart contract. This is called a *Personal Currency*, and all personal currencies operate according to a shared set of rules.
 
 Each personal currency continuously mints new coins and awards them to its associated person. Moreover, the amount of coins minted is inflating every year. This is the only way that new money is created in Circles and forms the basis of its UBI characteristics. All currencies mint new coins at the same rate, meaning that new money is co-produced and distributed equally to all members of the system at all times. 
-
 
 ```
 Alice joins the system, creating AliceCoin
@@ -94,7 +92,7 @@ Carol gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Carol gives 5 AliceCoin to Bob
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_1.png)
+![Transitive exchange](https://raw.githubusercontent.com/CirclesUBI/circles-handbook/master/docs/assets/diagram_1.png)
 
 The transaction can be extended to include multi-hop chains of trust as well:
 
@@ -111,7 +109,7 @@ Dave gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Dave gives 5 AliceCoin to Bob
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_3.png)
+![](https://raw.githubusercontent.com/CirclesUBI/circles-handbook/master/docs/assets/diagram_3.png)
 
 With this system, the connectedness of the social network serves as a direct measure of users’ ability to transact with each other. A familiar way of thinking about this is the famous six degrees of separation phenomenon that suggests everyone on earth is connected to everyone else by a chain of six people. Circles uses these chains to transact through the system. If a user is well-integrated into the network, with many connections to other well-integrated users, they will find it easier to send and receive personal currency.
 
@@ -131,7 +129,7 @@ Bob can now spend money with 25 people (and their friends, and friends of friend
 Alice can now only spend money with Bob
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_4.png)
+![Trust limits](https://raw.githubusercontent.com/CirclesUBI/circles-handbook/master/docs/assets/diagram_4.png)
 
 In the example above, Alice needs a way to acknowledge that BobCoin is real money, while limiting her exposure to it while Bob is still new. Circles achieves this with Trust Limits. When you create a trust relationship in Circles, you have the option to include the maximum amount of your total coins you are willing to hold in another user’s currency.  A trust limit is expressed as a percentage.. With trust limits, Alice is able to help Bob integrate into the system in a more controlled way:
 
@@ -164,7 +162,7 @@ FakeAlice gives 10 FakeCoin to Alice and takes 5 AliceCoin from her
 FakeAlice gives 10 AliceCoin to Bob
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/docs/master/assets/diagram_2.png)
+![Fake accounts](https://raw.githubusercontent.com/CirclesUBI/circles-handbook/master/docs/assets/diagram_2.png)
 
 This example demonstrates that Bob can only ever receive money that he trusts, and Alice can only ever spend money that other users trust in turn. Even if Alice makes 100 fake accounts and has them all trust each other, she will never be able to spend more than the amount of AliceCoins she has, since that’s the only account that other users will trust. This is why it is crucial that users take direct peer-to-peer trust relationships seriously.
 
@@ -175,5 +173,3 @@ Circles is not meant to become the world's dominant currency, cryptographic or o
 ## Conclusion
 
 The Circles Money System was designed to get started creating a UBI economy today. We believe that the combination of resilience and global accessibility afforded by blockchain technology is a key catalyst that makes a Universal Basic Income achievable within the next generation. Our system's native Sybil-attack resistance and inbuilt decentralized identity make it an ideal focus for grassroots action and community organization, which have been hallmarks of envisioned UBI economies over the years. We are actively researching the economic implications of Circles' various design tradeoffs with the intention of creating a money system that is as useful and stable as possible. Our roadmap is designed to get started with trial applications as soon as possible in order to see how this new form of value exchange behaves in real economic settings. We are very excited about the potential of this project and hope that it can serve as a critical foundation for a new economic paradigm in the decades to come.
-
-
