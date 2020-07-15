@@ -2,7 +2,7 @@ Circles Money System Overview
 
 *A decentralised Universal Basic Income platform based on personal currencies*
 
-**https://www.joincircles.net**
+**https://joincircles.net**
 
 ## Abstract
 
@@ -24,7 +24,7 @@ Circles is a money system that is made up of individual currencies. These curren
 
 When a new blockchain account joins Circles, the system creates and assigns them a unique currency via a smart contract. This is called a *Personal Currency*, and all personal currencies operate according to a shared set of rules.
 
-Each personal currency continuously mints new coins and awards them to its associated person. Moreover, the amount of coins minted is inflating every year. This is the only way that new money is created in Circles and forms the basis of its UBI characteristics. All currencies mint new coins at the same rate, meaning that new money is co-produced and distributed equally to all members of the system at all times. 
+Each personal currency continuously mints new coins and awards them to its associated person. Moreover, the amount of coins minted is inflating every year. This is the only way that new money is created in Circles and forms the basis of its UBI characteristics. All currencies mint new coins at the same rate, meaning that new money is co-produced and distributed equally to all members of the system at all times.
 
 ```
 Alice joins the system, creating AliceCoin
@@ -46,7 +46,7 @@ Five minutes later Alice has 5 AliceCoin while Bob has 5 AliceCoin and 5 BobCoin
 
 ### Inflation
 
-In order to disincentivize hoarding and to encourage economic activity, the system will introduce an annual inflation schedule. This is demurrage by other means, where all personal currencies will issue progressively larger amounts of tokens per year, paid out per second. New users will always start issuing at a rate that is consistent with all other personal currencies. 
+In order to disincentivize hoarding and to encourage economic activity, the system will introduce an annual inflation schedule. This is demurrage by other means, where all personal currencies will issue progressively larger amounts of tokens per year, paid out per second. New users will always start issuing at a rate that is consistent with all other personal currencies.
 
 ```
 Alice joins the system, creating AliceCoin
@@ -92,7 +92,7 @@ Carol gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Carol gives 5 AliceCoin to Bob
 ```
 
-![Transitive exchange](https://raw.githubusercontent.com/CirclesUBI/circles-handbook/master/docs/assets/diagram_1.png)
+![Transitive exchange](https://handbook.joincircles.net/assets/diagram_1.png)
 
 The transaction can be extended to include multi-hop chains of trust as well:
 
@@ -109,7 +109,7 @@ Dave gives 5 CarolCoin to Alice and takes 5 AliceCoin from her
 Dave gives 5 AliceCoin to Bob
 ```
 
-![](https://raw.githubusercontent.com/CirclesUBI/circles-handbook/master/docs/assets/diagram_3.png)
+![](https://handbook.joincircles.net/assets/diagram_3.png)
 
 With this system, the connectedness of the social network serves as a direct measure of users’ ability to transact with each other. A familiar way of thinking about this is the famous six degrees of separation phenomenon that suggests everyone on earth is connected to everyone else by a chain of six people. Circles uses these chains to transact through the system. If a user is well-integrated into the network, with many connections to other well-integrated users, they will find it easier to send and receive personal currency.
 
@@ -129,7 +129,7 @@ Bob can now spend money with 25 people (and their friends, and friends of friend
 Alice can now only spend money with Bob
 ```
 
-![Trust limits](https://raw.githubusercontent.com/CirclesUBI/circles-handbook/master/docs/assets/diagram_4.png)
+![Trust limits](https://handbook.joincircles.net/assets/diagram_4.png)
 
 In the example above, Alice needs a way to acknowledge that BobCoin is real money, while limiting her exposure to it while Bob is still new. Circles achieves this with Trust Limits. When you create a trust relationship in Circles, you have the option to include the maximum amount of your total coins you are willing to hold in another user’s currency.  A trust limit is expressed as a percentage.. With trust limits, Alice is able to help Bob integrate into the system in a more controlled way:
 
@@ -162,7 +162,7 @@ FakeAlice gives 10 FakeCoin to Alice and takes 5 AliceCoin from her
 FakeAlice gives 10 AliceCoin to Bob
 ```
 
-![Fake accounts](https://raw.githubusercontent.com/CirclesUBI/circles-handbook/master/docs/assets/diagram_2.png)
+![Fake accounts](https://handbook.joincircles.net/assets/diagram_2.png)
 
 This example demonstrates that Bob can only ever receive money that he trusts, and Alice can only ever spend money that other users trust in turn. Even if Alice makes 100 fake accounts and has them all trust each other, she will never be able to spend more than the amount of AliceCoins she has, since that’s the only account that other users will trust. This is why it is crucial that users take direct peer-to-peer trust relationships seriously.
 
