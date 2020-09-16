@@ -1,4 +1,0 @@
-Circles Handbook
-===
-
-Hello, Circles!
