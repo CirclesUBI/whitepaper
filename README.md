@@ -1,4 +1,5 @@
-Circles Money System Overview
+Circles Protocol
+===
 
 *A decentralised Universal Basic Income platform based on personal currencies*
 
