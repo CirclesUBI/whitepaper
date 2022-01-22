@@ -172,7 +172,7 @@ Alice can now only spend money with Bob
 
 ![Trust limits](https://raw.githubusercontent.com/CirclesUBI/whitepaper/master/assets/diagram_4.png)
 
-In the example above, Alice needs a way to acknowledge that BobCoin is real money, while limiting her exposure to it while Bob is still new. Circles achieves this with Trust Limits. When you create a trust relationship in Circles, you have the option to include the maximum amount of your total coins you are willing to hold in another user’s currency.  A trust limit is expressed as a percentage.. With trust limits, Alice is able to help Bob integrate into the system in a more controlled way:
+In the example above, Alice needs a way to acknowledge that BobCoin is real money, while limiting her exposure to it while Bob is still new. Circles achieves this with Trust Limits. When you create a trust relationship in Circles, you have the option to include the maximum amount of your total coins you are willing to hold in another user’s currency.  A trust limit is expressed as a percentage. With trust limits, Alice is able to help Bob integrate into the system in a more controlled way:
 
 ```
 25 people trust AliceCoin
