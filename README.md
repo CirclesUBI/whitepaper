@@ -47,6 +47,10 @@
 
 ## Abstract
 
+<strong style="color:red;"> Note that this is the whitepaper for v1 of the Circles protocol, which is not actively maintained. To get to the current version 2 and the corresponding whitepaper, please visit ![the website](https://www.aboutcircles.com)
+</strong>
+
+
 We propose a new money system called Circles that is based on individualized cryptocurrencies and a social graph of trust between these currencies. This money system will be for the purposes of distributing money in a way which will, over time, lead to the equalization of wealth and function like a globally accessible Universal Basic Income. When new users join Circles, a new personal cryptocurrency is created for them on a smart contract-enabled blockchain. This currency is then regularly minted and added to their account, forming the basis of Circles' UBI properties. Users have the ability to trust the personal currencies of other users, which requires them to treat this personal currency as identical to any other Circles currencies that they hold. As the social graph becomes more interconnected, these personal currencies converge on one single global monetary system.
 
 ## Introduction
